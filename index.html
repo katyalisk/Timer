@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta http-equiv="Cache-Control" content="no-cache">
+<meta http-equiv="Expires"       content="0">
+<meta http-equiv="Content-Type"  content="text/html; charset=windows-1251">
+<title>Simple Charts with Timer</title>
+
+<link rel="stylesheet" href="style.css">
+<script src="https://www.amcharts.com/lib/3/amcharts.js"></script>
+<script src="https://www.amcharts.com/lib/3/serial.js"></script>
+<script src="https://www.amcharts.com/lib/3/pie.js"></script>
+<script src="https://www.amcharts.com/lib/3/radar.js"></script>
+<script src="https://www.amcharts.com/lib/3/plugins/tools/polarScatter/polarScatter.min.js"></script>
+</head>
+
+<body>
+	<div class="txt">
+		This page will be updated in <span id="tmrSec">10</span> s.
+		<button id="btn" onclick="btnClicked()">Stop</button>	
+	</div>
+
+ 	<div class="chartCard">
+		<div class="chartBox">
+			Bar Chart
+			<div id="barChart"></div>
+		</div>
+	
+		<div class="chartBox">
+			Pie Chart
+			<div id="pieChart"></div>
+		</div>
+		
+		<div class="chartBox">
+			Radar Chart
+			<div id="radarChart"></div>
+		</div>
+	</div>
+	
+	<script src="script.js"></script>
+</body>
+
+</html>

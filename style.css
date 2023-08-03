@@ -1,0 +1,46 @@
+body {
+	background: #f0f5f7;
+	font-family: Verdana;
+}
+
+.addText {
+	background-color: white;
+	width: inherit;
+}
+
+.chartBox {
+	width: 525px;
+	padding: 20px;
+	margin: 20px;
+	border-radius: 15px;
+	background-color: white;
+	text-align: center;
+}
+
+.chartCard {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.txt {
+	display: block;
+	width: 20%;
+	text-align: center;
+	background-color: white;
+	border-radius: 15px;
+	margin: auto;
+	padding: 20px;
+}
+
+#barChart, #pieChart, #radarChart {
+	width: inherit;
+	height: 400px;
+	font-size: 20px;
+}
+
+#btn {
+	display: block;
+	margin: 20px auto;
+}
